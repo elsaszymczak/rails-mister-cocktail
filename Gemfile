@@ -23,6 +23,7 @@ gem 'simple_form'
 gem 'autoprefixer-rails'
 gem 'jquery-rails'
 gem 'figaro'
+gem 'cloudinary'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
