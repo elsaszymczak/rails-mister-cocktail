@@ -22,6 +22,8 @@ gem 'font-awesome-sass', '~> 5.0.9'
 gem 'simple_form'
 gem 'autoprefixer-rails'
 gem 'jquery-rails'
+gem 'figaro'
+
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
