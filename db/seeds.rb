@@ -10,9 +10,11 @@ url = 'https://www.thecocktaildb.com/api/json/v1/1/list.php?i=list'
 text = open(url).read
 ingredients = JSON.parse(text)
 
-
+puts "destroy all ingredients"
+Ingredient.destroy_all
 
 ingredients["drinks"].each do |ingredient|
-  Ingredient.create!(name: ingredient["strIngredient1"])
+  ingredient = Ingredient.create!(name: ingredient["strIngredient1"])
+  puts "#{ingredient.name} created"
 end
 
